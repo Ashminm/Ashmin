@@ -1,6 +1,4 @@
 /*general*/
-
-
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
@@ -164,9 +162,7 @@ section {
     width: 350px;
     margin: auto 0;
 }
-
-.section__text-container {
-    align-self: center;
+.section__text{
     text-align: center;
 }
 
@@ -182,7 +178,7 @@ section {
 .section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
 }
 
 .title{
