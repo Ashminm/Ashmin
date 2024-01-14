@@ -11,7 +11,7 @@ ScrollReveal({
     duration:2200,
     delay:200
 });
-ScrollReveal().reveal('#desktop-nav', { delay: 500 });
+ScrollReveal().reveal('#desktop-nav, #hamburger-nav .logo', { delay: 500 });
 ScrollReveal().reveal('#profile, .section__text__p1-2, .prject-btn button', { delay: 200, origin: 'right'});
 ScrollReveal().reveal('.title, .section__pic__container img  ', { delay: 500, origin: 'left'});
 ScrollReveal().reveal('.section__pic-container ,#about,  #experience, #projects, #contact, footer  ', { delay: 600, origin: 'bottom'});
