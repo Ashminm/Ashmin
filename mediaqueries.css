@@ -13,6 +13,7 @@
         }
         #hamburger-nav {
             display: flex;
+            z-index: 1;
         }
     }
     #experience {
