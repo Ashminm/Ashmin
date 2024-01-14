@@ -162,6 +162,10 @@ section {
     width: 350px;
     margin: auto 0;
 }
+.section__pic-container img{
+    border: 3px solid #000;
+    border-radius: 50%;
+}
 .section__text {
     text-align: center;
 }
