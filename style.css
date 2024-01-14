@@ -13,6 +13,7 @@ body::-webkit-scrollbar {
 }
 html {
     scroll-behavior: smooth;
+ 
 }
 p {
     color: rgb(85, 85, 85);
@@ -158,6 +159,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    
 }
 
 .section__pic-container {
