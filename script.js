@@ -12,10 +12,10 @@ ScrollReveal({
     delay:200
 });
 ScrollReveal().reveal('#desktop-nav, #hamburger-nav', { delay: 500 });
-ScrollReveal().reveal('#profile, .section__text__p1-2', { delay: 200, origin: 'right'});
-ScrollReveal().reveal('.title  ', { delay: 500, origin: 'left'});
+ScrollReveal().reveal('#profile, .section__text__p1-2, .prject-btn button', { delay: 200, origin: 'right'});
+ScrollReveal().reveal('.title, .section__pic__container img  ', { delay: 500, origin: 'left'});
 ScrollReveal().reveal('.section__pic-container ,#about,  #experience, #projects, #contact, footer  ', { delay: 600, origin: 'bottom'});
-ScrollReveal().reveal('#socials-container img, .details-container img, .contact-info-container img', { delay: 600, origin: 'top', interval: 200});
+ScrollReveal().reveal('#socials-container img, .details-container img, .contact-info-container img, .nav-links li', { delay: 600, origin: 'top', interval: 200});
 
 
 

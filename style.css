@@ -105,6 +105,10 @@ a:hover {
 .menu-links li {
     list-style: none;
 }
+.menu-links ,li,a{
+    z-index: 1;
+    cursor: pointer;
+}
 
 .menu-links.open {
     max-height: 300px;
@@ -161,10 +165,12 @@ section {
     height: 350px;
     width: 350px;
     margin: auto 0;
+    z-index: -1;
 }
 .section__pic-container img{
     border: 3px solid #000;
     border-radius: 50%;
+    z-index: -1;
 }
 .section__text {
     text-align: center;
