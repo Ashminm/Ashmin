@@ -1,236 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashmin.in</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="icon" type="image" href="assets/ashmin-circle.png">
-</head>
-<body>
-    <nav id="desktop-nav">
-        <div class="logo">Ashmin Manoj</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Ashmin</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-
-        </div>
-        </div>
-    </nav>
-    
-
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/ashmin-circle.png" alt="Ashmin-profile-pic">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Ashmin Manoj</h1>
-            <p class="section__text__p2">Web Developer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/ashmin-resume.pdf')">Download Resume</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-                
-            </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ashmin.in</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+        <link rel="icon" type="image" href="assets/ashmin-circle.png" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Ashmin Manoj</div>
             <div>
-                <div id="socials-container">
-                    <img src="./assets/linkedin.png" alt="linkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/ashmin-manoj-640887249','_blank')">
-                    <img src="./assets/github.png" alt="Github" class="icon" onclick="window.open('https://github.com/Ashminm','_blank')"">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1-2">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic__container">
-                <img src="./assets/ashmin-about.jpg" class="about-pic" alt="profile picture">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" class="icon" alt="">
-                        <h3>Experience</h3>
-                        <p> Fresher <br> mern stack developer</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" class="icon" alt="">
-                        <h3>Education</h3>
-                        <p>Intern at <br> Luminar Technolab</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>"Hello, my name is Ashmin, and I have a passion for coding. I find joy in the process of turning ideas into functional and innovative software solutions. From web development to software engineering,  I love the challenges and creative opportunities that coding offers.Coding is not just a profession for me; it's a fulfilling journey of continuous learning and growth."  </p>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#experience'">
-    </section>
-    <section id="experience">
-        <p class="section__text__p1-2">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experiance-detailse-container">
-            <div class="about-container">
-                <div class="details-container-2">
-                    <h2 class="experiance-sub-title">Frendend development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Analyzing</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>Bootstrap</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container-2">
-                    <h2 class="experiance-sub-title">Backend development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>PHP</h3>
-                                <p>Analyzing</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Analyzing</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Analyzing</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" class="icon" alt="">
-                            <div>
-                                <h3>React</h3>
-                                <p>Analyzing</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#projects'">
-    </section>
-    <section id="projects">
-        <p class="section__text__p1-2">Brows My recent</p>
-        <h1 class="title">Projects</h1>
-            <div class="experiance-detailse-container">
-                <div class="about-containers">
-                    <div class="details-container color-container">
-                        <div class="article-container">
-                            <img src="./assets/flipkart.jpg" class="project-img" alt="project-1">
-                        </div>
-                        <h2 class="experience-sub-title project-title">Shopping </h2>
-                        <div class="btn-container prject-btn">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ashminm/ecom-shop.git','_blank')" >Github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://ecom-shops.netlify.app/','_blank')">Live Demo</button>
-                        </div>
-                </div>
-                <div class="details-container color-container">
-                        <div class="article-container">
-                            <img src="./assets/bs.jpg" class="project-img" alt="project-2">
-                        </div>
-                        <h2 class="experience-sub-title project-title">Calculator</h2>
-                        <div class="btn-container prject-btn">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ashminm/Calculator-JS.git','_blank')">Github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://ashminm.github.io/Calculator-JS/','_blank')">Live Demo</button>
-                        </div>
-                </div>
-                <div class="details-container color-container">
-                        <div class="article-container">
-                            <img src="./assets/p3.jpg" class="project-img" alt="project-3">
-                        </div>
-                        <h2 class="experience-sub-title project-title">Netflix Clone</h2>
-                        <div class="btn-container prject-btn">
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ashminm/Netflix.git','_blank')">Github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="window.open('https://ashminm.github.io/Netflix/','_blank')">Live Demo</button>
-                        </div>
-                </div>
-                </div>
-            </div> 
-            <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#contact'">
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get In Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container ">
-            <div class="contact-info-container">
-                    <img src="./assets/email.png" class="icon contact-icon email-icon" alt="">
-                    <p><a target="_blank" href="mailto:ashminstafy@gmail.com">ashminstafy@gmail.com</a></p>
-            </div>
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" class="icon contact-icon" alt="">
-                <p><a target="_blank" href="https://www.linkedin.com/in/ashmin-manoj-640887249">Linkedin</a></p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <nav>
-            <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-    
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 Ashmin. all Rights Reserved</p>
-    </footer>
+        <nav id="hamburger-nav">
+            <div class="logo">Ashmin</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
 
-    <script src="script.js"></script>
-</body>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/ashmin-circle.png" alt="Ashmin-profile-pic" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Ashmin Manoj</h1>
+                <p class="section__text__p2">Web Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/ashmin-resume.pdf')">
+                        Download Resume
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div>
+                    <div id="socials-container">
+                        <img
+                            src="./assets/linkedin.png"
+                            alt="linkedin"
+                            class="icon"
+                            onclick="window.open('https://www.linkedin.com/in/ashmin-manoj-640887249','_blank')"
+                        />
+                        <img src="./assets/github.png" alt="Github" class="icon"
+                        onclick="window.open('https://github.com/Ashminm','_blank')"">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1-2">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic__container">
+                    <img src="./assets/ashmin-about.jpg" class="about-pic" alt="profile picture" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" class="icon" alt="" />
+                            <h3>Experience</h3>
+                            <p>
+                                Fresher <br />
+                                mern stack developer
+                            </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" class="icon" alt="" />
+                            <h3>Education</h3>
+                            <p>
+                                Intern at <br />
+                                Luminar Technolab
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            "Hello, my name is Ashmin, and I have a passion for coding. I find joy in the process of turning
+                            ideas into functional and innovative software solutions. From web development to software
+                            engineering, I love the challenges and creative opportunities that coding offers.Coding is not
+                            just a profession for me; it's a fulfilling journey of continuous learning and growth."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#experience'" />
+        </section>
+        <section id="experience">
+            <p class="section__text__p1-2">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experiance-detailse-container">
+                <div class="frendend_backend">
+                    <h3>Frendend development</h3>
+                    <div class="about-container">
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress1">
+                                <span class="progress-value progress-value1">0%</span>
+                            </div>
+                            <span class="text">HTML & CSS</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress2">
+                                <span class="progress-value progress-value2">0%</span>
+                            </div>
+                            <span class="text">Bootstrap</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress3">
+                                <span class="progress-value progress-value3">0%</span>
+                            </div>
+                            <span class="text">JavaScript</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress4">
+                                <span class="progress-value progress-value4">0%</span>
+                            </div>
+                            <span class="text">React.js</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress4">
+                                <span class="progress-value progress-value4">0%</span>
+                            </div>
+                            <span class="text">React.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frendend_backend">
+                    <h3>Backend development</h3>
+                    <div class="about-container">
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress5">
+                                <span class="progress-value progress-value5">0%</span>
+                            </div>
+                            <span class="text">PHP</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress6">
+                                <span class="progress-value progress-value6">0%</span>
+                            </div>
+                            <span class="text">Node.js</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress7">
+                                <span class="progress-value progress-value7">0%</span>
+                            </div>
+                            <span class="text">JavaScript</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress8">
+                                <span class="progress-value progress-value8">0%</span>
+                            </div>
+                            <span class="text">React.js</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="circular-progress circular-progress8">
+                                <span class="progress-value progress-value8">0%</span>
+                            </div>
+                            <span class="text">React.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#projects'" />
+        </section>
+        <section id="projects">
+            <p class="section__text__p1-2">Brows My recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experiance-detailse-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/flipkart.jpg" class="project-img" alt="project-1" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Shopping</h2>
+                        <div class="btn-container prject-btn">
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/Ashminm/ecom-shop.git','_blank')"
+                            >
+                                Github
+                            </button>
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://ecom-shops.netlify.app/','_blank')"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/bs.jpg" class="project-img" alt="project-2" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Calculator</h2>
+                        <div class="btn-container prject-btn">
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/Ashminm/Calculator-JS.git','_blank')"
+                            >
+                                Github
+                            </button>
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://ashminm.github.io/Calculator-JS/','_blank')"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/p3.jpg" class="project-img" alt="project-3" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Netflix Clone</h2>
+                        <div class="btn-container prject-btn">
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/Ashminm/Netflix.git','_blank')"
+                            >
+                                Github
+                            </button>
+                            <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://ashminm.github.io/Netflix/','_blank')"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" class="icon arrow" alt="" onclick="location.href='./#contact'" />
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" class="icon contact-icon email-icon" alt="" />
+                    <p><a target="_blank" href="mailto:ashminstafy@gmail.com">ashminstafy@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" class="icon contact-icon" alt="" />
+                    <p><a target="_blank" href="https://www.linkedin.com/in/ashmin-manoj-640887249">Linkedin</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Ashmin. all Rights Reserved</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>

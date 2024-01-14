@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
     #profile {
         height: 61vh;
         margin-bottom: 8rem;
@@ -6,26 +6,32 @@
     .about-container {
         flex-wrap: wrap;
     }
-}
 
+    @media screen and (max-width: 1200px) {
+        #desktop-nav {
+            display: none;
+        }
+        #hamburger-nav {
+            display: flex;
+        }
+    }
+    #experience {
+        margin-bottom: 0px;
+    }
 
-@media screen and (max-width: 1200px){
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav {
-        display: flex;
-    }
-    #experience, .experience-details-container {
+    #experience,
+    .experience-details-container {
         margin-top: 2rem;
     }
-    #profile, .section-container {
+    #profile,
+    .section-container {
         display: block;
     }
     .arrow {
         display: none;
     }
-    section, .section-container {
+    section,
+    .section-container {
         height: fit-content;
     }
     .section-container {
@@ -34,7 +40,6 @@
     }
     section {
         margin: 0 10%;
-        
     }
     .section__pic-container {
         width: 275px;
@@ -69,8 +74,8 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    footer
-    .about-container, .contact-info-upper-container,
+    footer .about-container,
+    .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
     }
@@ -100,7 +105,7 @@
         height: 46vw;
         justify-content: center;
     }
-   
+
     .section__text-p2 {
         font-size: 1.25rem;
     }
