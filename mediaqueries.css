@@ -6,6 +6,9 @@
     .about-container {
         flex-wrap: wrap;
     }
+    #preloader{
+        background-size: 25%;
+    }
 
     @media screen and (max-width: 1200px) {
         #desktop-nav {

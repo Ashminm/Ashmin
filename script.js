@@ -4,6 +4,12 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+// ----------------------------------preloader--------------------------------------------
+var loader  = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+
 
 // ----------------------------------scroll indicator-----------------------------------------------------
 
