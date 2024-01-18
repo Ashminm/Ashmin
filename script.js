@@ -14,7 +14,7 @@ window.addEventListener("scroll", () => {
     const hight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrollValue = (pageScroll / hight) * 100;
 
-    indicatorBar.style.width = scrollValue + "%";
+    indicatorBar.style.width = scrollValue + "0%";
 });
 
 // -------------------------- skills circle percentage------------------------------------------------------------
