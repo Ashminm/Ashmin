@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 ScrollReveal({ 
-    reset: true,
+    // reset: true,
     distance:'80px',
     duration:2200,
     delay:200
