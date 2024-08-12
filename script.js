@@ -64,21 +64,21 @@ function startCircularProgress(circularProgressClass, progressValueClass, progre
         if (progressStartValue === progressEndValue) {
             clearInterval(progress);
         }
-        console.log(progressStartValue);
+        // console.log(progressStartValue);
     }, speed);
 }
 
 // Start four progress bars with different end values
-startCircularProgress("circular-progress1", "progress-value1", 97);
-startCircularProgress("circular-progress2", "progress-value2", 97);
-startCircularProgress("circular-progress3", "progress-value3", 50);
-startCircularProgress("circular-progress4", "progress-value4", 55);
-startCircularProgress("circular-progress5", "progress-value5", 67);
+startCircularProgress("circular-progress1", "progress-value1", 99);
+startCircularProgress("circular-progress2", "progress-value2", 99);
+startCircularProgress("circular-progress3", "progress-value3", 60);
+startCircularProgress("circular-progress4", "progress-value4", 75);
+startCircularProgress("circular-progress5", "progress-value5", 80);
 
-startCircularProgress("circular-progress6", "progress-value6", 45);
-startCircularProgress("circular-progress7", "progress-value7", 40);
-startCircularProgress("circular-progress8", "progress-value8", 50);
-startCircularProgress("circular-progress9", "progress-value9", 70);
-startCircularProgress("circular-progress10", "progress-value10",66);
+startCircularProgress("circular-progress6", "progress-value6", 80);
+startCircularProgress("circular-progress7", "progress-value7", 85);
+startCircularProgress("circular-progress8", "progress-value8", 60);
+startCircularProgress("circular-progress9", "progress-value9", 90);
+startCircularProgress("circular-progress10", "progress-value10",85);
 
 // -------------------------------------------------------------------
