@@ -77,8 +77,8 @@ startCircularProgress("circular-progress5", "progress-value5", 80);
 
 startCircularProgress("circular-progress6", "progress-value6", 80);
 startCircularProgress("circular-progress7", "progress-value7", 85);
-startCircularProgress("circular-progress8", "progress-value8", 60);
 startCircularProgress("circular-progress9", "progress-value9", 90);
 startCircularProgress("circular-progress10", "progress-value10",85);
+startCircularProgress("circular-progress8", "progress-value8", 96);
 
 // -------------------------------------------------------------------
